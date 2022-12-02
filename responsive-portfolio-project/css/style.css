@@ -42,3 +42,11 @@ object-fit: cover;
     cursor: pointer;
     text-decoration: none;
   }
+
+  @media only screen and (max-width: 1000px) {
+    #navigation {
+      
+    }
+    .icons {
+      margin-left: auto;
+    }
