@@ -68,6 +68,11 @@ gap: 30px;
     text-decoration: none;
   }
 
+  .main-content{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
   @media only screen and (max-width: 1000px) {
     #navigation {
       
@@ -76,7 +81,4 @@ gap: 30px;
       margin-left: auto;
     }
 
-    body {
-        display: grid;
-        grid-template-columns: 50% 50%;
-    }
+    
