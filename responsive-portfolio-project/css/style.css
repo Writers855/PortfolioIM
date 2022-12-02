@@ -22,5 +22,27 @@
     margin: 0;
   }
 
-  
-  
+
+header{
+background-image: url('https://img.freepik.com/free-vector/modern-flowing-blue-wave-banner-white-background_1035-18960.jpg?w=740&t=st=1670015886~exp=1670016486~hmac=febbde326ae50c18497ac7fcc489a19efb0468f1685f33a1bc580e9cec1e47ae');
+background-repeat: no-repeat;
+}
+
+#navigation {
+    display: flex;#navBar {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 5%;
+  }
+  #navBar h1 {
+    width: 25%;
+    font-weight: 500;
+  }
+    width: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  #navigation p {
+    cursor: pointer;
+    text-decoration: none;
+  }
