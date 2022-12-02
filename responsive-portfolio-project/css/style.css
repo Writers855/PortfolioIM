@@ -24,24 +24,20 @@
 
 
 header{
-background-image: url('https://img.freepik.com/free-vector/modern-flowing-blue-wave-banner-white-background_1035-18960.jpg?w=740&t=st=1670015886~exp=1670016486~hmac=febbde326ae50c18497ac7fcc489a19efb0468f1685f33a1bc580e9cec1e47ae');
+background-image: url('https://img.freepik.com/https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-63452.jpg?w=826&t=st=1670018011~exp=1670018611~hmac=d0bef177dc75744a564f86268043f955e0afa10474b593528e7afdc79baadc97free-photo/gradient-dark-blue-futuristic-digital-grid-background_53876-129728.jpg?w=826&t=https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-63452.jpg?w=826&t=st=1670018011~exp=1670018611~hmac=d0bef177dc75744a564f86268043f955e0afa10474b593528e7afdc79baadc97st=1670017920~exp=1670018520~hmac=67bfbe40898aec7551d8d3d03a31d8a455dc2fee2b54da9447c386c36084cf4d');
 background-repeat: no-repeat;
+object-fit: cover;
 }
 
 #navigation {
-    display: flex;#navBar {
+    display: flex;#navBar 
     display: flex;
     flex-direction: row;
-    margin: 0px 5%;
+    justify-content: flex-end;
+    margin: 20px 5%;
+    gap:30px
   }
-  #navBar h1 {
-    width: 25%;
-    font-weight: 500;
-  }
-    width: 50%;
-    align-items: center;
-    justify-content: space-evenly;
-  }
+
   #navigation p {
     cursor: pointer;
     text-decoration: none;
