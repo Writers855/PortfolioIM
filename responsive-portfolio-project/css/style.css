@@ -75,3 +75,8 @@ gap: 30px;
     .icons {
       margin-left: auto;
     }
+
+    body {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
