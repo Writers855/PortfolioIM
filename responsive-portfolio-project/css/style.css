@@ -8,17 +8,7 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.5;
   }
-.header-section{
-   background-color: rgba(72, 220, 247, 0.877);
-   display: grid;
-   grid-template-columns: 20% 20% 15% 15% 15% 15%;
-   grid-template-rows: auto;
-   grid-template-areas: 
-   "portfolio , , , , , "
-   "name , about work contact resume";
 
-
-}
   h1,
   h2,
   h3,
@@ -31,4 +21,6 @@
   p {
     margin: 0;
   }
+
+  
   
