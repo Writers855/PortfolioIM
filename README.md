@@ -8,17 +8,15 @@ Project is the creation of a portfolio website to display work created by the st
 
 ## link to deployed website
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+https://writers855.github.io/PortfolioIM/
 
 
-## Usage 
+## Development
 
-Provide instructions and examples for use. Include screenshots as needed. 
+steps taken to develop website
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-```md
-![alt text](assets/images/screenshot.png)
+First step was to wireframe website
+![alt text](./responsive-portfolio-project/images/portfolioWireframe.png)
 ```
 
 
