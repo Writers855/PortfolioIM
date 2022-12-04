@@ -41,6 +41,7 @@
 #portfolio {
     color: rgb(128, 3, 3);
     display: flex;
+    padding: 10px;
     flex-direction: center;
     justify-content: center;
 }
@@ -83,8 +84,28 @@ gap: 30px;
 
   .main-content{
     display: grid;
-    grid-template-columns: 35% 65%;
+    grid-template-columns: 40% 60%;
+    gap:10px
+    grid-auto-rows: 200px 200px 400px;
+    grid-template-areas:
+    "a b"
+    "c d"
+    "e f";
+    align-items:start
+  
 }
+.TitleME {grid-area: a;}
+
+.DescriptionMe {grid-area: b;}
+
+.Work {grid-area: c;}
+
+.placeholder1 {grid-area: d;}
+
+.Workimg {grid-area:f}
+
+
+
 
 footer{
     display: flex;
@@ -104,4 +125,10 @@ footer{
       margin-left: auto;
     }
 
-    
+    @media only screen and (max-width: 1000px) 
+    #navigation2 {
+      
+    }
+    .icons {
+      margin-left: auto;
+    }  
