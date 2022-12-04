@@ -85,10 +85,11 @@ gap: 30px;
     display: grid;
     grid-template-columns: 40% 60%;
     gap:10px
-    grid-auto-rows: 200px 400px;
+    grid-auto-rows: 200px 200px 400px;
     grid-template-areas:
     "a b"
-    "c d";
+    "c d"
+    "e f";
     align-items:start
   
 }
@@ -98,7 +99,11 @@ gap: 30px;
 
 .Work {grid-area: c;}
 
-.Workimg {grid-area: d;}
+.placeholder1 {grid-area: d;}
+
+.Workimg {grid-area:f}
+
+
 
 
 footer{
