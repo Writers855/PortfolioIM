@@ -65,7 +65,6 @@ margin-right: 5px;}
   background-size: cover;
   background-repeat: no-repeat;
   object-fit: cover;
-  display: block;
   display: flex;
   justify-content: center;
 }
