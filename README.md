@@ -26,6 +26,15 @@ Main developer - Ian Millichamp
 
 credit to be given to the following sources for assistence in the development of this website
 
+Student Andrea - during working hours gave helpful advice that helped resolve initial problems with grid layout and understanding when and when not to use it.
+
+week 2 lesson 2 examples
+
+use of gap command - folkstalk.com
+how to stretch background images - thoughtco.com
+resolved issue with class usage - learnt about main tag - video from office hours December 2nd 2022
+box alignment in grid layout - mdn
+
 
 
 
