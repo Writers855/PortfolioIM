@@ -54,8 +54,10 @@ background-size: cover;
 background-repeat: no-repeat;
 object-fit: cover;
 margin: 0;
+padding: 0;
 display: block;
 }
+
 img {border:8px solid</subHeader> rgb(5, 41, 248);
 margin-right: 5px;}
 
@@ -66,7 +68,7 @@ margin-right: 5px;}
   background-size: cover;
   background-repeat: no-repeat;
   object-fit: cover;
-  display: flex;
+  display: block;
   justify-content: center;
 }
 
