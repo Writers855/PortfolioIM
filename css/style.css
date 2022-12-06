@@ -84,7 +84,7 @@ gap: 30px;
     flex-direction: row;
     justify-content: flex-start;
     margin: 20px 5%;
-    gap:30px
+    gap:30px;
 }
 
 #navigation {
@@ -93,7 +93,7 @@ gap: 30px;
     flex-direction: row;
     justify-content: flex-end;
     margin: 20px 5%;
-    gap:30px
+    gap:30px;
   }
 
   #navigation p {
