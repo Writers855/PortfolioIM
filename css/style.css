@@ -135,7 +135,17 @@ footer{
     display: grid;
     grid-template-columns: 50% 50%;
     align-items: end;
+    cursor: pointer;
+    text-decoration: none;
 } 
+
+.placeholder1 {
+  cursor: pointer;
+  text-decoration: none;
+
+}
+
+
 
   @media only screen and (max-width: 1000px) 
     #navigation {
