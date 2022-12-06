@@ -36,7 +36,8 @@
     margin: 0;
   }
 
-
+img {padding: 5px;color: black
+  ;}
 
 #portfolio {
     color: rgb(128, 3, 3);
@@ -53,8 +54,10 @@ background-size: cover;
 background-repeat: no-repeat;
 object-fit: cover;
 margin: 0;
+padding: 0;
 display: block;
 }
+
 img {border:8px solid</subHeader> rgb(5, 41, 248);
 margin-right: 5px;}
 
@@ -65,7 +68,7 @@ margin-right: 5px;}
   background-size: cover;
   background-repeat: no-repeat;
   object-fit: cover;
-  display: flex;
+  display: block;
   justify-content: center;
 }
 
@@ -100,9 +103,9 @@ gap: 30px;
 
   .main-content{
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 37% 60%; 3%
     gap:10px
-    grid-auto-rows: 200px 200px 400px;
+    grid-auto-rows: 200px 200px 200px;
     grid-template-areas:
     "a b"
     "c d"
@@ -118,7 +121,7 @@ gap: 30px;
 
 .placeholder1 {grid-area: d;}
 
-.Workimg {grid-area:f}
+#grid-placeholders {grid-area:f}
 
 
 
@@ -131,7 +134,18 @@ footer{
 #grid-placeholders {
     display: grid;
     grid-template-columns: 50% 50%;
+    align-items: end;
+    cursor: pointer;
+    text-decoration: none;
 } 
+
+.placeholder1 {
+  cursor: pointer;
+  text-decoration: none;
+
+}
+
+
 
   @media only screen and (max-width: 1000px) 
     #navigation {
@@ -139,7 +153,7 @@ footer{
     }
     .icons {
       margin-left: auto;
-    }
+    }1
 
     @media only screen and (max-width: 1000px) 
     #navigation2 {
