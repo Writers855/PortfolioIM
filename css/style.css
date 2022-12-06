@@ -36,7 +36,8 @@
     margin: 0;
   }
 
-
+img {padding: 5px;color: black
+  ;}
 
 #portfolio {
     color: rgb(128, 3, 3);
