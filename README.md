@@ -34,6 +34,7 @@ use of gap command - folkstalk.com
 how to stretch background images - thoughtco.com
 resolved issue with class usage - learnt about main tag - video from office hours December 2nd 2022
 box alignment in grid layout - mdn
+Tutorial session 9th December 2022 - David Elutilo
 
 
 
